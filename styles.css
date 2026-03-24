@@ -1,0 +1,225 @@
+/* RESET */
+body{
+    margin: 0;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #e5e7eb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* NAVBAR */
+#navbar-diya {
+    background-color: #020617;
+    padding: 15px 0;
+    border-bottom: 1px solid #1e293b;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: #cbd5e1 !important;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #38bdf8 !important;
+}
+
+/* HERO SECTION */
+#Home {
+    padding: 60px 0;
+}
+
+/* TEXT */
+.hero-text h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hero-text h2 {
+    color: #e2e8f0;
+    margin-bottom: 10px;
+}
+
+.hero-text h5 {
+    color: #38bdf8;
+    margin-top: 20px;
+}
+
+.hero-text p,ul,label {
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+p {
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+/* BUTTON */
+.btn-custom {
+    margin-top: 20px;
+    background-color: #38bdf8;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.btn-custom:hover {
+    background-color: #0ea5e9;
+}
+
+/* IMAGE */
+.img-box {
+    background-color: #020617;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.img-box img {
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .hero-text {
+        text-align: center;
+    }
+
+    .img-box {
+        margin-top: 20px;
+    }
+}
+.name-highlight {
+    background: linear-gradient(90deg, #38bdf8, #6366f1, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 35px;
+}
+.form-control::placeholder {
+    color: #bbb;
+}
+.card {
+  background: linear-gradient(135deg, #446dca, #020617);
+    color: #e5e7eb;
+    min-height: 450px;
+    padding: 30px;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #0d6efd, #00b4ff);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0b5ed7, #0096c7);
+}
+.btn {
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 15px;
+    height: 50px;
+}
+.footer-section {
+    background: linear-gradient(135deg, #0a0f2c, #1a2a6c);
+}
+
+.footer-section a:hover {
+    color: #00c6ff;
+}
+.whatsapp:hover {
+    color: #25D366; /* WhatsApp green */
+}
+
+        .hire-section {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .btn-hire {
+            background: linear-gradient(45deg, #00c6ff, #0072ff);
+            color: white;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+
+        .btn-hire:hover {
+            transform: scale(1.05);
+            background: linear-gradient(45deg, #0072ff, #00c6ff);
+        }
+
+        .resume-box {
+            margin-top: 30px;
+            border: 2px solid #00c6ff;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+.form-control {
+    padding: 12px 15px;
+    height: 45px;
+    border-radius: 8px;
+}
+textarea.form-control {
+    padding: 12px 15px;
+    min-height: 120px;
+}
+
+.input-group .form-control {
+    padding: 12px 15px;
+}
+
+.input-group-text {
+    padding: 0 12px;
+}
+#contact {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+#contact .card {
+    min-height: 450px;
+    padding: 35px;
+    border-radius: 15px;
+}
+/* Glow Image */
+.img-box-glow {
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    display: inline-block;
+}
+
+.img-box-glow img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Role Text */
+.role-text {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+/* Hire Button */
+.btn-hire {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn-hire:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #0072ff, #00c6ff);
+}
